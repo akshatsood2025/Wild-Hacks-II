@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header-caraousel {
+  width: 100%;
+  height: 500px;
+}
+.myclass {
+  width: 100%;
+  height: 600px;
+}
+
+.head-container {
+  position: relative;
+}
+
+.mysearchbar {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mysearchbar input {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+.pagefooter {
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #212529;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.companyheading {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.leftfooter {
+  width: 50%;
+  height: 100px;
+  background-color: #212529;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+.rightfooter {
+  width: 50%;
+  height: 100px;
+  padding-bottom: 20px;
+  background-color: #212529;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.downfooter {
+  width: 100%;
+  height: auto;
+  border-top: solid 2px white;
+  background-color: #212529;
+  text-align: center;
+}
+.linkheading {
+  width: 100%;
+  text-align: center;
+}
+
+.paymentheading {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+}
+.paymentimg {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.footerlink {
+  width: 50%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.rescard {
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 300ms ease-in;
+  margin: 20px;
+}
+.rescard:hover {
+  transform: scale(1.05);
+}
+.resimg {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.reshead {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resdesc {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+.rescontent {
+  color: #83878b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resloc {
+  padding: 2px;
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+}
+.locimg {
+  width: 20px;
+  height: 20px;
+}
+.reslist {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.resheading {
+  width: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  margin-bottom: 50px;
+}
+.map-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.animallist {
+  width: 40%;
+  background-color: #83878b;
+}
+
+.ls-item {
+  background-color: cadetblue;
+}
